@@ -1,6 +1,6 @@
 body
 {
-    height: 3000px;
+    
 }
 .clear{clear: both;}
 /*fix*/
@@ -8,7 +8,7 @@ body
 {
     background: #0C486D;
     width: 25%;
-    height: 900px;
+    height: 100%;
     color:red;
     position: fixed;
     float: left;
@@ -236,6 +236,7 @@ body
 {
     margin: 250px 0px 0px 40px;
     width: 80%;
+    margin-bottom: 200px;
 }
 .acev h1
 {
