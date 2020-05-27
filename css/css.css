@@ -46,6 +46,7 @@ body
     margin: 0px auto 25px auto;
     font-size: 19px;
     font-weight: bold;
+    cursor:pointer;
     
 }
 .ga a
