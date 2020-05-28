@@ -49,6 +49,11 @@ body
     cursor:pointer;
     
 }
+.ga .active
+{
+    color:black;
+    font-size: 21px;
+}
 .ga a
 {
     text-decoration: none;
@@ -57,8 +62,10 @@ body
 .ga a:hover
 {
     
-    color: #BFBFBF;
+    color: black;
+    font-size: 21px;
 }
+
 /* end fix*/
 .container
 {
