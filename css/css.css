@@ -1,4 +1,4 @@
-@media (min-width:1025px) 
+@media (min-width:1110px) 
  {
 
  
@@ -278,7 +278,7 @@
 /* for mobile*/
 @media only screen 
 and (min-width : 10px) 
-and (max-width : 1024px)
+and (max-width : 1099px)
  {
 
  
