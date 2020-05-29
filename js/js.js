@@ -98,3 +98,10 @@ window.addEventListener("scroll", function() {
     else
         acBut.classList.remove('active');
     })
+
+
+var div=document.getElementById("child");
+window.addEventListener("scroll", function() {
+    div.style.width=posTop()/2+"px";
+    })
+    
