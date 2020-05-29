@@ -276,7 +276,7 @@
 
 
 /* for mobile*/
-@media (max-width: 550px)
+@media (min-width: 10) and(max-width: 450)
  {
 
  
