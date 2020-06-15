@@ -18,40 +18,44 @@ pro.onclick=function()
     'use strict';
     
     window.scrollTo({
-    top: PROGECTS.offsetTop,
+    top: PROGECTS.offsetTop-80,
     left: 100,
     behavior: 'smooth'
     });
+    menuDiv.classList.add('hide');
 }
 aboutBut.onclick=function()
 {
     'use strict';
     
     window.scrollTo({
-    top: about.offsetTop,
+    top: about.offsetTop-80,
     left: 100,
     behavior: 'smooth'
     });
+    menuDiv.classList.add('hide');
 }
 educaBut.onclick=function()
 {
     'use strict';
     
     window.scrollTo({
-    top: Educ.offsetTop,
+    top: Educ.offsetTop-80,
     left: 100,
     behavior: 'smooth'
     });
+    menuDiv.classList.add('hide');
 }
 skillsBut.onclick=function()
 {
     'use strict';
     
     window.scrollTo({
-    top: skills.offsetTop,
+    top: skills.offsetTop-80,
     left: 100,
     behavior: 'smooth'
     });
+    menuDiv.classList.add('hide');
 }
 acBut.onclick=function()
 {
@@ -62,6 +66,7 @@ acBut.onclick=function()
     left: 100,
     behavior: 'smooth'
     });
+    menuDiv.classList.add('hide');
 }
 //end icons scroll
 console.log(posTop());
@@ -105,3 +110,12 @@ window.addEventListener("scroll", function() {
     div.style.width=posTop()/2+"px";
     })
     
+
+var menuBut=document.getElementById('menuBut');
+
+var menuDiv=document.getElementById('menuDiv');
+
+menuBut.onclick=function()
+{
+    menuDiv.classList.toggle('hide');
+}
